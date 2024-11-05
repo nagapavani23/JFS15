@@ -8,17 +8,22 @@
 <body>
     <h1>Signup page</h1>
     <form action="">
-        <label for="Username">Username:</label>
+        <br><label for="Username">Username:</label>
         <input id="Username" placeholder="Username" type="text">
-        <br>
-        <label for="email">Email:</label>
-        <input id="email" placeholder="Email" type="text">
-        <br>
-        <label for="password">Password:</label>
-        <input id="password" placeholder="Password" type="text">
-        <br>
-        <label for="confirm password">Confirm Password:</label>
+    </br>
+       <br> <label for="email">Email:</label>
+        <input id="email" placeholder="Email" name="email" required type="email">
+</br> 
+        <br><label for="password">Password:</label>
+        <input id="password" placeholder="Password" type="password">
+    </br>
+        <br><label for="confirm password">Confirm Password:</label>
         <input id="confirm password" placeholder="Confirm Password" type="text">
+    </br>
+    <br>
+    <label><input type="checkbox" name="Remember">Remember me</label>
+    </br>
+        <br><button type="submit">Login</button></br>
     </form>
     <a href="login.html">Login</a>
 </body>
